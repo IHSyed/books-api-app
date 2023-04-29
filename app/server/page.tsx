@@ -19,7 +19,7 @@ export default async function staticPage() {
   //console.log(books);
   return (
     <div>
-      <h1>This is an Example of a Static Page </h1>
+      <h1>This is an Example of a Dynamic Page </h1>
       <h2> The COLLECTION related to Books is used here from POSTMAN</h2>
       <br></br>
       {books.map((books: Book) => (

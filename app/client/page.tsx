@@ -13,7 +13,7 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 // Here FETCHER is a syntax and "res" is the RESPONSE
 // res.json will make the json response usable to us
 
-export default function clientPage() {
+export default function ClientPage() {
   const { data, error, isLoading } = useSWR(url, fetcher);
 
   {
